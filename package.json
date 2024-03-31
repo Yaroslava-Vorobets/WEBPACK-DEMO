@@ -1,0 +1,29 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "npx webpack-dev-server --mode development"
+  },
+
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yaroslava-Vorobets/webpack-demo.git"
+  },
+  "keywords": [],
+  "author": "Yaroslava-Vorobets <slavavor85@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
