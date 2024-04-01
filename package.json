@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "build": "webpack",
-    "start": "npx webpack-dev-server --mode development"
+    "start": "npx webpack-dev-server --mode development",
+    "watch": "webpack --mode development --watch"
   },
 
    "repository": {
